@@ -1,0 +1,92 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #bcdbec;
+  background: url('imagess2.jpg' ) no-repeat center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 125vh; /* Full-screen height */
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(243, 235, 235, 0.963);
+  text-align: center;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: rgb(238, 225, 226);
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #de1515df;
+}
+
+/* Hidden Elements */
+.hidden {
+  display: none;
+}
+
+.language-selector select {
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Result Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #0f0d0d;
+  text-align: right;
+}
+
+th {
+  background-color: #a4d5f6;
+}
+
+/* Alerts */
+.alerts {
+  background-color: #dd171b;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.result {
+  margin-top: 30px;
+}
